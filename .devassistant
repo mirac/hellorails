@@ -1,0 +1,19 @@
+dependencies:
+- rpm:
+  - /usr/bin/ruby
+- rpm:
+  - rubygem(rails)
+  - rubygem(sqlite3)
+  - rubygem(jquery-rails)
+  - rubygem(coffee-rails)
+  - rubygem(sass-rails)
+  - rubygem(uglifier)
+  - rubygem(therubyracer)
+devassistant_version: 0.9.3
+original_kwargs:
+  github: !!python/unicode 'mirac'
+  name: !!python/unicode '/home/mirac/Documents/Projects/hellorails'
+  vim: true
+project_type:
+- ruby
+- rails
